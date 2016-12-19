@@ -1,0 +1,54 @@
+
+
+
+/*image*/
+iframe{
+  z-index: -1;
+}
+
+/******************header******************/
+.logoImg {
+  
+  margin: 2.5% 0 0 10%;
+}
+
+
+
+/******************Slider*******************/
+
+.hide{
+  display: none !important;
+}
+.sliderImg {
+  width: 100%;
+  height: 100%;  
+}
+
+
+
+/*slide counter*/
+.bx-wrapper .bx-pager {
+  display: none;
+}
+/******************button******************/
+.mainButton {
+  text-decoration: none;
+  position: absolute;
+  right:    0;
+  bottom:   0;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  margin: 0 5% 3% 0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plusBtn {
+  color: red;
+  font-size: 3rem !important;
+}
+
+
