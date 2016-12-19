@@ -24,7 +24,13 @@ iframe{
   height: 100%;  
 }
 
-
+.sliderButton{
+  width: 10%;
+  height: 20%;
+  bottom: 2%;
+  right: 2%;
+  position: absolute;
+}
 
 /*slide counter*/
 .bx-wrapper .bx-pager {
