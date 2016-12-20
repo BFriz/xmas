@@ -1,9 +1,9 @@
 .flex{
   display: flex;
 }
-body{
+/*body{
   background: #C41A09;
-}
+}*/
 
 /*image*/
 iframe{
@@ -34,10 +34,6 @@ iframe{
   display: none !important;
 }
 
-.backgroundImg{
-  margin: 1% auto;
-  width: 95%;
-}
 #sliderContainer{
   position: relative;
   width: 92%;
@@ -61,7 +57,7 @@ iframe{
 }
 .headerReview{
   width: 30%;
-  margin: 5% auto 10% auto;
+  margin: 5% auto 6% auto;
 }
 .sliderImg {
   width: 25%;

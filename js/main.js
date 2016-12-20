@@ -1,14 +1,16 @@
 $(function() {
 
+$('.sliderButton').css( 'cursor', 'pointer' );
+
 // plus sign button and bx-slider show and hide.
 $('#mainButton').on("click", (e) => {
   e.preventDefault();
   $('#sliderContainer').toggleClass('hide');
-  $('#mainBody').toggleClass('hide');
+  // $('#mainBody').toggleClass('hide');
   $('.bottomRight').toggleClass('hide');
   $('.sliderButton').removeClass('hide');
  // hide backgroundImg
-  $('.flex').toggleClass('hide');
+  // $('.flex').toggleClass('hide');
   // stop duplication of arrow buttons on bxslider
   $('.bx-wrapper .bx-prev').addClass('hide');
   $('.bx-wrapper .bx-next').addClass('hide');
@@ -22,11 +24,11 @@ $('#mainButton').on("click", (e) => {
 // slider view toggleClass
 $('.sliderButton').on("click", (e)=> {
   $('#sliderContainer').toggleClass('hide');
-  $('#mainBody').toggleClass('hide');
+  // $('#mainBody').toggleClass('hide');
   $('.bottomRight').toggleClass('hide');
   $('.sliderButton').addClass('hide');
-  $('.flex').toggleClass('hide');
-  
+  // $('.flex').toggleClass('hide');
+
 
 })
 
