@@ -7,10 +7,16 @@ $('#mainButton').on("click", (e) => {
   $('#mainBody').toggleClass('hide');
   $('.bottomRight').toggleClass('hide');
   $('.sliderButton').removeClass('hide');
+ // hide backgroundImg
+  $('.flex').toggleClass('hide');
+  // stop duplication of arrow buttons on bxslider
   $('.bx-wrapper .bx-prev').addClass('hide');
   $('.bx-wrapper .bx-next').addClass('hide');
-
-  $('.bxslider').bxSlider();
+ 
+  $('.bxslider').bxSlider({
+    adaptiveHeight: true,
+    mode: 'fade'
+  });
 
 })
 // slider view toggleClass
