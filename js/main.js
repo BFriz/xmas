@@ -1,13 +1,11 @@
 $(function() {
 
-
 // plus sign button and bx-slider show and hide.
-$('.mainButton').on("click", (e) => {
-
+$('#mainButton').on("click", (e) => {
   e.preventDefault();
   $('#sliderContainer').toggleClass('hide');
   $('#mainBody').toggleClass('hide');
-  $('.mainButton').toggleClass('hide');
+  $('.bottomRight').toggleClass('hide');
   $('.sliderButton').removeClass('hide');
   $('.bx-wrapper .bx-prev').addClass('hide');
   $('.bx-wrapper .bx-next').addClass('hide');
@@ -19,7 +17,7 @@ $('.mainButton').on("click", (e) => {
 $('.sliderButton').on("click", (e)=> {
   $('#sliderContainer').toggleClass('hide');
   $('#mainBody').toggleClass('hide');
-  $('.mainButton').toggleClass('hide');
+  $('.bottomRight').toggleClass('hide');
   $('.sliderButton').addClass('hide');
 
 
