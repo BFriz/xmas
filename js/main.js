@@ -9,6 +9,8 @@ $('.mainButton').on("click", (e) => {
   $('#mainBody').toggleClass('hide');
   $('.mainButton').toggleClass('hide');
   $('.sliderButton').removeClass('hide');
+  $('.bx-wrapper .bx-prev').addClass('hide');
+  $('.bx-wrapper .bx-next').addClass('hide');
 
   $('.bxslider').bxSlider();
 
