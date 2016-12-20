@@ -25,7 +25,8 @@ $('.sliderButton').on("click", (e)=> {
   $('#mainBody').toggleClass('hide');
   $('.bottomRight').toggleClass('hide');
   $('.sliderButton').addClass('hide');
-
+  $('.flex').toggleClass('hide');
+  
 
 })
 

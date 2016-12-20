@@ -11,6 +11,7 @@ iframe{
 }
 .redText{
   color: red;
+  text-decoration: none;
 }
 .mainBody{
   width: 80%;
