@@ -6,11 +6,8 @@ $('.sliderButton').css( 'cursor', 'pointer' );
 $('#mainButton').on("click", (e) => {
   e.preventDefault();
   $('#sliderContainer').toggleClass('hide');
-  // $('#mainBody').toggleClass('hide');
   $('.bottomRight').toggleClass('hide');
   $('.sliderButton').removeClass('hide');
- // hide backgroundImg
-  // $('.flex').toggleClass('hide');
   // stop duplication of arrow buttons on bxslider
   $('.bx-wrapper .bx-prev').addClass('hide');
   $('.bx-wrapper .bx-next').addClass('hide');
