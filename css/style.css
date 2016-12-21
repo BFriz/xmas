@@ -28,7 +28,7 @@ iframe{
 
 /******************Slider*******************/
 .bx-viewport{
-  height: 800px !important;
+  height: 700px
 }
 .hide{
   display: none !important;
@@ -53,7 +53,6 @@ iframe{
   flex-direction: column;
   width: 100% !important;
   align-content: space-between;
-  height: 800px;
 }
 .headerReview{
   width: 30%;
@@ -74,18 +73,10 @@ iframe{
   text-align: center;
 }
 
-.sliderButton{
-  width: 10%;
-  height: 20%;
-  bottom: 2%;
-  right: 2%;
-  position: absolute;
-}
-
 .xSign{
-  bottom: 25px;
-  right: 25px;
-  position: absolute;
+  bottom: 1%;
+  right: 1%;
+  position: fixed;
   width: 45px;
   color: red;
   font-size: 65px;
@@ -142,12 +133,12 @@ iframe{
 
 
 
-@media (max-width: 1300px) { 
+
   .fullDisplay{
-    height: 900px !important;
-  }
+    height: 950px;
+}  
   .bx-viewport {
     height: 700px;
   }
 
-}
+

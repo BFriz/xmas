@@ -1,6 +1,6 @@
 $(function() {
 
-$('.sliderButton').css( 'cursor', 'pointer' );
+$('.xSign').css( 'cursor', 'pointer' );
 
 // plus sign button and bx-slider show and hide.
 $('#mainButton').on("click", (e) => {
@@ -19,7 +19,7 @@ $('#mainButton').on("click", (e) => {
 
 })
 // slider view toggleClass
-$('.sliderButton').on("click", (e)=> {
+$('.xSign').on("click", (e)=> {
   $('#sliderContainer').toggleClass('hide');
   // $('#mainBody').toggleClass('hide');
   $('.bottomRight').toggleClass('hide');
