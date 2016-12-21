@@ -71,6 +71,7 @@ iframe{
   font-size: 125%;
   width: 52%;
   text-align: center;
+  padding: 5%;
 }
 
 .xSign{
@@ -132,13 +133,8 @@ iframe{
 }
 
 
-
-
+/*
   .fullDisplay{
     height: 950px;
-}  
-  .bx-viewport {
-    height: 700px;
-  }
-
+}  */
 
